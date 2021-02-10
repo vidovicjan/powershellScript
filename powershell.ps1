@@ -21,5 +21,3 @@ Get-AppxPackage *bingsports* | Remove-AppxPackage
 Get-AppxPackage *soundrecorder* | Remove-AppxPackage
 Get-AppxPackage *bingweather* | Remove-AppxPackage
 Get-AppxPackage *xbox* | Remove-AppxPackage
-
-Reg Add HKCU\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications /v GlobalUserDisabled /t REG_DWORD /d 0 /f
