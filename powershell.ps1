@@ -1,5 +1,5 @@
 ﻿Get-AppxPackage *alarms* | Remove-AppxPackage
-Get-AppxPackage *3dbuilder* | Remove-AppxPackage_
+Get-AppxPackage *3dbuilder* | Remove-AppxPackage
 Get-AppxPackage *acg* | Remove-AppxPackage
 Get-AppxPackage *alarms* | Remove-AppxPackage
 Get-AppxPackage *communications* | Remove-AppxPackage
